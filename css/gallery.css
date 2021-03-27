@@ -1,0 +1,149 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin:100px;
+    background-color: white;
+}
+
+.navbar-expand-lg{
+    background-color: black;
+    color: white;
+}
+
+.nav-link:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.4); /* Safari 3-8 */  
+   
+}
+
+#active{
+    transform: scale(1.2);
+}
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+
+.navbar .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;..");
+ }
+
+ .custom-toggler.navbar-toggler {
+   border-color: rgb(255,102,203);
+}
+.custom-toggler .navbar-toggler-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+hr.new1 {
+    border-top: 1px solid rgb(202, 11, 52);
+}
+
+.effet:hover{
+transform: scale(.97);
+opacity:0.9;
+transition: .3s
+}
+
+
+.guide h4{
+    background-color: lightgrey;
+    width: 400px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 25px;
+    margin-top: -41px;
+    text-align: center; 
+    font-size: 30px;
+  }
+  .text h4{
+    background-color: lightgrey;
+    width: 200px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 25px;
+    margin-top: -41px;
+    text-align: center; 
+    font-size: 30px;
+  }
+
+
+
+
+  
+ 
+  
+
+
+.card {
+    background-color: black;
+}
+.card-header {
+    height: 90px;
+    color: rgb(251, 245, 245)
+}
+.card-body{
+    height: 280px;
+    background-color: black;
+    width:100%;
+    color: antiquewhite;
+}
+.header1{
+    background-color: rgb(27, 26, 26);
+    height: 130px;
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 5px 2px;
+    border-radius: 99%;
+    text-decoration: none;
+  }
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+ #text-justify h4{
+     text-align: justify;
+    color: #dd4b39;  
+ }
+
+
